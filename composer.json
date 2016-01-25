@@ -1,0 +1,22 @@
+{
+    "name": "sibds/yii2-inputfile",
+    "description": "FileInput with elFinder",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","file","input"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Mazur",
+            "email": "mazurva@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "mihaildev/yii2-elfinder": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sibds\\widgets\\": ""
+        }
+    }
+}
