@@ -8,7 +8,7 @@ class InputFile extends \mihaildev\elfinder\InputFile
     public $controller = 'elfinder';
     public $template = '<div class="input-group">{input}<span class="input-group-btn">{button}</span></div>';
     public $options = ['class' => 'form-control'];
-    public $buttonName = '<i class="fa fa-folder-open-o" title="Файлы"></i>';
+    public $buttonName = '<i class="far fa-folder-open" title="Файлы"></i>';
     public $buttonOptions = ['class' => 'btn btn-default'];
     public $multiple = false;
 }
